@@ -3,22 +3,36 @@
   "version": "1.0.0",
   "main": "index.ts",
   "repository": "https://github.com/atefc/sidenor-backend.git",
-  "author": "Atef CHIKH <atef.chikh-ext@sixense-group.com>",
+  "author": "Atef CHIKH",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
-    "@types/express": "^5.0.0",
+    "@apollo/server": "^4.12.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/graphql": "^14.5.0",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
     "express-graphql": "^0.12.0",
     "graphql": "^16.10.0",
+    "graphql-scalars": "^1.24.2",
     "i": "^0.3.7",
-    "npm": "^11.2.0"
+    "mongoose": "^8.13.2",
+    "npm": "^11.2.0",
+    "reflect-metadata": "^0.2.2",
+    "type-graphql": "^2.0.0-rc.2",
+    "typedi": "^0.10.0"
   },
   "devDependencies": {
-    "@types/node": "^22.13.10",
+    "@types/node": "^22.14.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
+  },
+  "resolutions": {
+    "@types/express": "^4.17.17"
   }
 }
